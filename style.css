@@ -57,5 +57,22 @@ header {
         padding: 2rem;
         text-align: justify;
     }
+
+    .autores {
+        background-color: whitesmoke;
+        width: 92%;
+        height: 50%;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        border-radius: 1rem;
+        font-size: 2rem;
+        padding: 2rem;
+        text-align: justify;
+    }
 }
 
+.autores {
+    display: grid;
+    gap: 1rem;
+}
